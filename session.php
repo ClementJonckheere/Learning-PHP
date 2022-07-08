@@ -15,7 +15,7 @@
 <a href="afficher_session.php">Afficher variables de session</a><br>
 <a href="session_detruite.php">Détruire variables de session</a><br>
 
-
+<br><a href="index.php">revenir a l'accueil</a><br>
 
 
 
