@@ -11,6 +11,8 @@
 <!-- BODY -->
 <body>
     <h1> Récuperer les données </h1>
+    <h2>  Hello nous sommes le <?php echo Date("j/m/Y"); ?> 
+  </h2>
 
     <h2>Redirection</h2>
     <form action="reception.php" method="post">
@@ -39,5 +41,23 @@
     ?>
 </p>
 
+<form action="reception.php" method="get">
+ Nom: <input type="text" name="nom"><br>
+ Prénom: <input type="text" name="prenom"><br>
+ Sexe: <select name="sexe">
+ <option>M
+ <option>F
+ </select><br>
+ Vins: <br>
+ <select multiple name="ville[]">
+ <option value="amiens">Amiens</option>
+ <option value="paris">Paris</option>
+ <option value="marseille">Marseille</option>
+ </select><br>
+ <input type="submit" value="envoyer">
+</form> 
+
+
+<a href="session.php">menu session</a> 
 </body>
 </html>
