@@ -48,7 +48,7 @@
  <option>M
  <option>F
  </select><br>
- Vins: <br>
+Ville: <br>
  <select multiple name="ville[]">
  <option value="amiens">Amiens</option>
  <option value="paris">Paris</option>
